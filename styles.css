@@ -1,0 +1,62 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {  margin: 0; padding: 0; }
+
+:root
+{
+    --White: hsl(0, 0%, 100%);
+    --Light_gray: hsl(212, 45%, 89%);
+    --Grayish_blue: hsl(220, 15%, 55%);
+    --Dark_blue: hsl(218, 44%, 22%);
+}
+
+body
+{
+    background-color: var(--Light_gray);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Outfit', sans-serif;
+    color: var(--Grayish_blue);
+    font-size: 15px;
+    text-align: center;
+}
+
+.card
+{
+    width: 270px;
+    height: 430px;
+    padding: 15px;
+    background-color: var(--White);
+    border-radius: 15px;
+
+    margin: auto;
+    margin-block-start: 220px;
+    margin-block-end: 200px;
+
+}
+
+.card__qrcode
+{
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    background-image: url('images/image-qr-code.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card__text
+{
+    margin: 20px;
+    text-align: center;
+}
+
+.card__text__strong
+{
+    color: var(--Dark_blue);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
